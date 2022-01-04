@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<title>well-being</title>
+	<style>		
+		legend{
+			color: #eb6a56;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>
+		<link rel="icon"
+		type="image/png"
+		href="logo_nav1.png"
+		sizes="16x16">
+	<link rel="stylesheet"
+	href="projet.css"
+	type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body bgcolor="#f7f7f7">
+   <header id="up">
+	   <table cellspacing="10" width=100%>
+		   <tr>
+                <td> <img src="logo6.png" width="100"	/>  </td> 
+				<th align="center">
+				    <div class="search">  
+				          <div class="icon"></div> 
+				         <div class="input"><input  type="search" id="mysearch" placeholder="search" /></div>
+			         </div>
+			    </th>
+               <th align="right">
+		        <a href="mailto:bousetaoui.ilham@gmail.com"> Contact us</a></th>
+	      </tr>  
+	</table>
+	</header>
+	<nav>
+		<div class="menu-bar">
+			<ul>
+				<li class="active1"><a href="index.html">Home</a></li>
+				<li><a href="" id="md">Article</a>
+					<div class="sub-menu-1">
+						<ul>
+							<li><a href="mental_disorder.html">Depression</a></li>
+							<li><a href="Anxiety.html">Anxiety</a></li>
+							<li><a href="mental_disorder_1.html">Bipolar</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="" id="quiz">Quiz</a>
+					<div class="sub-menu-1">
+						<ul>
+							<li><a href="quizz-depression.html">Depression</a></li>
+							<li><a href="quiz-anxiety.html">Anxiety</a></li>
+							<li><a href="quizz-bipolar.html">Bipolar</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="To-Do-List.html">Organisation</a></li>
+				<li><a href="contact_doctors.html">Doctors</a></li>
+				<li><a href="FAQ.html">FAQ</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>
+			</div>
+	</nav>
+	<br>
+	<div id="quizz">
+	<article class="ba_quizz" >
+		<div class="container">
+		<span class="title">Anxiety :</span>
+		<form method="get" action="#" onsubmit="return Submit()">
+			<div class="gender-details">
+				<input type="radio" name="gender1" id="dot-1" data-value="1" class="answer">
+				<input type="radio" name="gender1" id="dot-2" data-value="0" class="answer">
+				<span class="gender-title">Have you ever been in therapy before ?</span>
+			    <div class="category">
+                  <label for="dot-1">
+					  <span class="dot one"></span>
+				      <span class="gender">Yes</span>
+			      </label>
+				  <label for="dot-2">
+					<span class="dot two"></span>
+					<span class="gender">No</span>
+				 </label>
+                </div>
+             </div>
+
+			 <div class="gender-details">
+				<input type="radio" name="gender2" id="dat-1" data-value="3" class="answer">
+				<input type="radio" name="gender2" id="dat-2" data-value="2" class="answer">
+				<input type="radio" name="gender2" id="dat-3" data-value="1" class="answer">
+			 <label for="out" class="gender-title">Do you worry about lots of different things?</label>
+			 <div class="category">
+				<label for="dat-1">
+					<span class="dat one"></span>
+					<span class="gender">Never</span>
+				</label>
+				<label for="dat-2">
+				  <span class="dat two"></span>
+				  <span class="gender">Rarely</span>
+			   </label>
+			   <label for="dat-3">
+				<span class="dat three"></span>
+				<span class="gender">Often</span>
+			 </label>
+			  </div>
+			</div>
+
+			<div class="gender-details">
+				<input type="radio" name="gender3" id="doot-1" data-value="2" class="answer">
+				<input type="radio" name="gender3" id="doot-2" data-value="1" class="answer">
+				<input type="radio" name="gender3" id="doot-3" data-value="0" class="answer">
+                <span class="gender-title">Do you have trouble controlling your worries?</span> 
+				<div class="category">
+					<label for="doot-1">
+						<span class="doot one"></span>
+						<span class="gender">Never</span>
+					</label>
+					<label for="doot-2">
+					  <span class="doot two"></span>
+					  <span class="gender">Rarely</span>
+				   </label>
+				   <label for="doot-3">
+					<span class="doot three"></span>
+					<span class="gender">Often</span>
+				 </label>
+				  </div>
+			   </div>
+
+			   <div class="gender-details">
+				<input type="radio" name="gender4" id="dooot-1" data-value="2" class="answer">
+				<input type="radio" name="gender4" id="dooot-2" data-value="1" class="answer">
+				<input type="radio" name="gender4" id="dooot-3" data-value="0" class="answer">
+             <span class="gender-title">Do you get irritable and/or easily annoyed when anxious?</span>
+			 <div class="category">
+				<label for="dooot-1">
+					<span class="dooot one"></span>
+					<span class="gender">Hardly ever</span>
+				</label>
+				<label for="dooot-2">
+				  <span class="dooot two"></span>
+				  <span class="gender">Sometimes</span>
+			   </label>
+			   <label for="dooot-3">
+				<span class="dooot three"></span>
+				<span class="gender">Often</span>
+			 </label>
+			  </div>
+		   </div>
+
+		   <div class="gender-details">
+			<input type="radio" name="gender5" id="daat-1" data-value="3" class="answer">
+			<input type="radio" name="gender5" id="daat-2" data-value="2" class="answer">
+			<input type="radio" name="gender5" id="daat-3" data-value="1" class="answer">
+		 <label for="out" class="gender-title"> Does worry or anxiety make it hard to concentrate?</label><br>
+		 <div class="category">
+			<label for="daat-1">
+				<span class="daat one"></span>
+				<span class="gender">Never</span>
+			</label>
+			<label for="daat-2">
+			  <span class="daat two"></span>
+			  <span class="gender">Sometimes</span>
+		   </label>
+		   <label for="daat-3">
+			<span class="daat three"></span>
+			<span class="gender">Often </span>
+		 </label>
+		  </div>
+		</div><br>
+			
+			<div class="gender-details">
+				<input type="radio" name="gender6" id="daaat-1" data-value="3" class="answer">
+				<input type="radio" name="gender6" id="daaat-2" data-value="2" class="answer">
+				<input type="radio" name="gender6" id="daaat-3" data-value="1" class="answer">
+			 <label for="physical" class="gender-title"> Do you feel jumpy?</label>
+			 <div class="category">
+			 <label for="daaat-1">
+				<span class="daaat one"></span>
+				<span class="gender">yes</span>
+			</label>
+			<label for="daaat-2">
+			  <span class="daaat two"></span>
+			  <span class="gender">sometimes</span>
+		   </label>
+		   <label for="daaat-3">
+			<span class="daaat three"></span>
+			<span class="gender">no</span>
+		 </label>
+		  </div>
+			</div>
+
+			<div class="gender-details">
+				<input type="radio" name="gender7" id="daaaat-1" data-value="3" class="answer">
+				<input type="radio" name="gender7" id="daaaat-2" data-value="2" class="answer">
+				<input type="radio" name="gender7" id="daaaat-3" data-value="1" class="answer">
+			 <label for="physical" class="gender-title"> Do your muscles get tense when you are worried or anxious?</label>
+			 <div class="category">
+			 <label for="daaaat-1">
+				<span class="daaaat one"></span>
+				<span class="gender">Never</span>
+			</label>
+			<label for="daaaat-2">
+			  <span class="daaaat two"></span>
+			  <span class="gender">Sometimes</span>
+		   </label>
+		   <label for="daaaat-3">
+			<span class="daaaat three"></span>
+			<span class="gender">Often</span>
+		 </label>
+		  </div>
+			</div>
+
+			<div class="button" align="right">
+				<button type="submit" name="submit" id="submit">submit</button>
+				<button type="button" name="exit" id="exit" onclick="javascript:history.back()">Exit</button>
+			</div>
+		</form>
+	</div>
+		</div>
+		</article>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+		<script src="script-quiz2.js"></script>
+	<br>
+	<a href="#up" class="up"> <img src="backtotop.png" height="60" width="60" class="top"/> </a>
+	<br><br>
+
+	<div class="cfooter">
+	<footer class="footer">
+		<div class="container1">
+			<div class="row">
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="#about_us.html">about us</a></li>
+						<li><a href="#">our services</a></li>
+						<li><a href="#">privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+				   <h4>get help</h4>
+				   <ul>
+					   <li><a href="FAQ.html">FAQ</a></li>
+					   <li><a href="#">email</a></li>
+					   <li><a href="#">phone</a></li>
+				   </ul>
+			   </div>
+			   <div class="footer-col">
+				   <h4> menu </h4>
+				   <ul>
+					   <li><a href="index.html">Home</a></li>
+					   <li><a href="#md">mental disorder</a></li>
+					   <li><a href="#quiz">Quiz</a></li>
+					   <li><a href="To-Do-List.html">Organisation</a></li>
+				   </ul>
+			   </div>
+			   <div class="footer-col">
+				   <h4>follow us</h4>
+				   <div class="social_links">
+					   <a href="#"><i class="fab fa-facebook-f"></i></a>
+					   <a href="#"><i class="fab fa-twitter"></i></a>
+					   <a href="#"><i class="fab fa-instagram"></i></a>
+					   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+				   </div>
+			   </div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
